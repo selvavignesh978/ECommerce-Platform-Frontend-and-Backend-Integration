@@ -20,7 +20,7 @@ app.use(express.json());
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://e-commerce-platform-frontend-and-ba.vercel.app"
+  "https://e-commerce-platform-frontend-and-ba.vercel.app/"
 ];
 app.use(
   cors({
